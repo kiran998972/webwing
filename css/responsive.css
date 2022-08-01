@@ -1,153 +1,105 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
-@media (min-width: 1200px) and (max-width: 1342px) {
-    
-}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navigation.navbar-dark .navbar-nav .nav-link {
-      margin: 0 0px;
-    }
+@media only screen and (min-width: 992px) {
+	/****Ipad Landscape 1024 Container 970 ****/
+	
+	.service-list{ margin-bottom:30px;}
+	.c-logo-part ul li{ margin:0 15px;}
+	.form{ margin:0 0 0 20px}
+	.main-nav{ display:block !important; }
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+	
+}	
    
-
-    .testimonial_Carousel .test_box span {
-
-    font-size: 21px;}
-    ul.location_icon li {padding-right: 12px; font-size: 15px;}
-    ul.link_icon li a {font-size: 16px;}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/****Ipad Portrait 768 Container 750 ****/
+	body{ font-size:13px;}
+	p{ line-height:20px ;}
+	.header h1{ font-size:46px;}
+	.main-nav ul li a{ padding:14px;}
+	.small-logo{ padding:0 20px;}
+	h2{ font-size:30px}
+	h6{ font-size:16px;}
+	h3{ font-size:15px;}
+	.service-list{ margin-bottom:20px; font-size:15px;}
+	.featured-work p.padding-b{ padding-bottom:15px;}
+	.main-section{ padding:70px 0;}
+	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
+	.c-logo-part ul li a{ display:block;}
+	.c-logo-part ul li a img{ display:block;}
+	.form{ margin:0;}
+	.contact-info-box{ margin:0 ;}
+	.social-link{ margin:0;}
+	
+	.main-nav{ display:block !important; }
+	.main-nav li a{ padding:8px 15px;}
+	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
+	.Portfolio-box{ height:250px;}*/
+	
+	 
+	
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .navigation.navbar-dark .navbar-nav .nav-link {
-      padding: 25px 10px;
-
-margin: 0 0px;
-    }
-    .sign_btn {max-width: 128px;
-font-size: 14px !important;}
-    .text-bg h1 {
-font-size: 39px;
-line-height: 49px;
-    }
-    .about_box {max-width: inherit; margin-bottom: 30px;}
-    .titlepage h2 {
-      font-size: 27px;
-    }
-   
-    .ho_socal {width: 190px;
-height: 187px;}
-    .testimonial_Carousel .test_box span {font-size: 15px;
-margin-left: 7px;}
-    ul.location_icon li {font-size: 14px;
-padding-right: 10px;}
+@media only screen and (max-width: 767px) {
+	/****Mobile Landscape 480 Container 100% ****/
+	body{ font-size:12px;}
+	h2{ font-size:26px;}
+	h3{ font-size:14px;}
+	h6{ font-size:16px; margin-bottom:40px;}
+	p{ line-height:18px;}
+	.service-list{ font-size:12px; margin-bottom:20px;}
+	.we-create li{ font-size:13px; padding:0 0 0 8px}
+	.header h1{ font-size:28px;}
+	.header{ padding:60px 0;}
+	.main-section{ padding:60px 0 70px;}
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	.main-nav li a:hover{color:#7cc576}
+	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+	.team-leader-box:nth-of-type(3n){ margin:0 auto}
+	.res-nav_click{ display:block;}
+	.featured-work{ font-size:12px; margin-top:30px;}
+	.featured-box{ font-size:12px;}
+	.featured-box p{ line-height:18px; }
+	.c-logo-part ul a{ margin-bottom:5px;}
+	.main-section.team{ padding:60px 0 50px;}
+	.business-talking h2{ font-size:36px;}
+	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+	.contact-info-box span{ line-height:18px;}
+	.social-link{ margin-left:30px;} 
+	.form{ margin:0 30px;}
+	.copyright{ font-size:12px;}
+	.business-talking a{ padding:10px 25px; font-size:14px;}
+	.main-section.contact{ padding:60px 0 70px}
+	.client-part-haead{ font-size:20px; line-height:30px;}
+	.link{ font-size:14px; padding:10px 25px;}
+	.logo{ width:100px;}
+	.main-section.contact{ background-size:contain;}
+	.Portfolio-nav li a{ padding:5px 16px;}
+	.Portfolio-nav li{ display:block;}
+	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	.isotope-item{ width:300px; margin:0px auto;}
+	.isotope{ width:400px; margin:0px auto;}
+	.Portfolio-box{}
+	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+	
+	
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-
-
-
-    .text-bg {padding-top: 30px; margin-bottom: 30px;}
-    .text-bg h1 {font-size: 52px;
-
-line-height: 66px;}
-    
-   .about_box {margin-bottom: 30px;}
-   .ho_socal {width: 217px;
-height: 214px;}
-
-.d_none1 {display: none;}
-.titlepage h2 {font-size: 28px;}
-ul.conta_icon li a {font-size: 12px;}
-    .navigation.navbar {
-        float: left;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-        padding-top: 12px;
-    }
-    .navigation .navbar-collapse {
-        background: #000;
-        padding: 20px;
-       margin-top: 58px;
-        position: absolute;
-        width: 100%;
-        margin-right: 20px;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-       padding: 10px 10px
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        border: inherit;
-        float: left;
-        padding: 0;
-        margin-top: 15px;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-    }
-    .margin_bottom1 {
-        margin-bottom: 30px !important;
-    }
+@media only screen and (max-width: 479px) {
+	/****Mobile Portrait 320 ****/
+	.contact-info-box{ margin-left:0px;}
+	.header{ padding:40px;}
+	.social-link{ margin-left:0px;}
+	.form{ margin:0}
+	.c-logo-part ul li{ display:block;}
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
+	.Portfolio-box img { max-width:100%;}
+	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
+	
 }
-
-@media (max-width: 575px) {
-   
-    .logo {
-        text-align: center !important;
-        padding-bottom: 6px;
-       text-align: center;
-    }
-    .d_none {display: none;}
-    .text-bg {margin-bottom: 30px; padding-top: 0;}
-    .text-bg h1 {
-font-size: 28px;
-line-height: 38px;
-    }
-    .titlepage h2 {
-        font-size: 27px;
-    }
-    .about_box {margin-bottom: 30px;}
-    .service .read_more {margin: inherit;}
-    .d_none1 {display: none;}
-   .ho_socal {width: 228px;
-
-
-height: 231px;}
-    .testimonial_Carousel .carousel-indicators {bottom: -4px;}
-    .navigation.navbar {
-        float: right;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-        margin-top: 20px;
-    }
-    .navigation .navbar-collapse {
-        background: #000;
-        padding: 20px;
-       margin-top: 50px;
-        position: absolute;
-        width: 100%;
-        margin-right: 20px;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 10px;
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        float: right;
-        margin-right: 2px;
-        border: inherit;
-    }
-    .testimonial_box {
-        padding: 0px 19px 40px 20px;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-    }
-}
-
